@@ -1,0 +1,15 @@
+@mixin bgimage($imgpath) {
+	background-image: $yellow-gradient, url($imgpath);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+@mixin carstitle() {
+	position: absolute;
+	top: 1.2em;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: 'Staatliches', cursive;
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+}
