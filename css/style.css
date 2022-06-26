@@ -160,7 +160,9 @@ body {
   width: 30%;
 }
 
-.nav .black-bars-color, .nav .black-bars-color::before, .nav .black-bars-color::after {
+.nav .black-bars-color,
+.nav .black-bars-color::before,
+.nav .black-bars-color::after {
   background-color: #333;
 }
 
@@ -271,7 +273,7 @@ body {
   padding: 2em;
   color: #ffff;
   text-align: center;
-  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.952), rgba(77, 77, 18, 0.74)), url("../img/headersmall.jpg");
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.952), rgba(77, 77, 18, 0.74)), url("./img/headersmall.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -330,7 +332,7 @@ body {
   padding: 12em 0em;
   text-align: center;
   color: #ffff;
-  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.952), rgba(77, 77, 18, 0.74)), url("../img/heroimglambosmall.jpg");
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.952), rgba(77, 77, 18, 0.74)), url("./img/heroimglambosmall.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -391,18 +393,18 @@ body {
 }
 
 .cars__card-img--first {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("../img/aventadorcar.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("../img/aventadorcar.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("./img/aventadorcar.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("./img/aventadorcar.jpg");
 }
 
 .cars__card-img--second {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("../img/huracancar.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("../img/huracancar.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("./img/huracancar.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("./img/huracancar.jpg");
 }
 
 .cars__card-img--third {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("../img/uruscar.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("../img/uruscar.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("./img/uruscar.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("./img/uruscar.jpg");
 }
 
 .cars__card-img-title {
@@ -509,7 +511,7 @@ body {
 .offers {
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.952), rgba(77, 77, 18, 0.74)), url("../img/offersbgsmall.jpg");
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.952), rgba(77, 77, 18, 0.74)), url("./img/offersbgsmall.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -835,7 +837,7 @@ body {
     right: 50px;
   }
   .header {
-    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.952), rgba(77, 77, 18, 0.74)), url("../img/headerbig.jpg");
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.952), rgba(77, 77, 18, 0.74)), url("./img/headerbig.jpg");
   }
   .header__title {
     font-size: 6rem;
@@ -860,7 +862,7 @@ body {
   }
   .hero-lambo {
     padding: 24em 0;
-    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.952), rgba(77, 77, 18, 0.74)), url("../img/heroimglambobig.jpg");
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.952), rgba(77, 77, 18, 0.74)), url("./img/heroimglambobig.jpg");
   }
   .hero-lambo__title {
     font-size: 6rem;
@@ -877,7 +879,7 @@ body {
     width: 30%;
   }
   .offers {
-    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.952), rgba(77, 77, 18, 0.74)), url("../img/offersbgbig.jpg");
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.952), rgba(77, 77, 18, 0.74)), url("./img/offersbgbig.jpg");
   }
   .offers__box-card-img {
     height: 300px;
