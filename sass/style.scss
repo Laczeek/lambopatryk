@@ -148,7 +148,7 @@ body {
 	padding: 2em;
 	color: $white-color;
 	text-align: center;
-	@include bgimage('./img/headersmall.jpg');
+	@include bgimage('headersmall.jpg');
 	background-attachment: scroll;
 
 	&__title {
@@ -214,7 +214,7 @@ body {
 	padding: 12em 0em;
 	text-align: center;
 	color: $white-color;
-	@include bgimage('./img/heroimglambosmall.jpg');
+	@include bgimage('../img/heroimglambosmall.jpg');
 
 	&__title {
 		font-size: 5rem;
@@ -266,15 +266,15 @@ body {
 			transition: transform 0.8s, opacity 0.8s;
 
 			&--first {
-				background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url('./img/aventadorcar.jpg');
+				background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url('../img/aventadorcar.jpg');
 			}
 
 			&--second {
-				background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url('./img/huracancar.jpg');
+				background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url('../img/huracancar.jpg');
 			}
 
 			&--third {
-				background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url('./img/uruscar.jpg');
+				background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url('../img/uruscar.jpg');
 			}
 
 			&-title {
@@ -359,7 +359,7 @@ body {
 .offers {
 	position: relative;
 	overflow: hidden;
-	@include bgimage('./img/offersbgsmall.jpg');
+	@include bgimage('../img/offersbgsmall.jpg');
 
 	&__box {
 		&-card {
@@ -672,7 +672,7 @@ body {
 	}
 
 	.header {
-		background-image: $yellow-gradient, url('./img/headerbig.jpg');
+		background-image: $yellow-gradient, url('../img/headerbig.jpg');
 
 		&__title {
 			font-size: 6rem;
@@ -705,7 +705,7 @@ body {
 
 	.hero-lambo {
 		padding: 24em 0;
-		background-image: $yellow-gradient, url('./img/heroimglambobig.jpg');
+		background-image: $yellow-gradient, url('../img/heroimglambobig.jpg');
 
 		&__title {
 			font-size: 6rem;
@@ -726,7 +726,7 @@ body {
 	}
 
 	.offers {
-		background-image: $yellow-gradient, url('./img/offersbgbig.jpg');
+		background-image: $yellow-gradient, url('../img/offersbgbig.jpg');
 		&__box-card-img {
 			height: 300px;
 			object-fit: cover;
