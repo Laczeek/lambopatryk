@@ -148,7 +148,7 @@ body {
 	padding: 2em;
 	color: $white-color;
 	text-align: center;
-	@include bgimage('./img/headersmall.jpg');
+	@include bgimage('../img/headersmall.jpg');
 	background-attachment: scroll;
 
 	&__title {

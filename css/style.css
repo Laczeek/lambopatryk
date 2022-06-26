@@ -271,7 +271,7 @@ body {
   padding: 2em;
   color: #ffff;
   text-align: center;
-  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.952), rgba(77, 77, 18, 0.74)), url("./img/headersmall.jpg");
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.952), rgba(77, 77, 18, 0.74)), url("../img/headersmall.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
